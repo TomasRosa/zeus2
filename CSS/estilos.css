@@ -19,9 +19,19 @@ h2
     padding: 12px;
     margin: 13px;
 }
-a
+a:link, a:visited /*Como aparece el link antes de apretar en el y visited luego de apretar en el*/
 {
-    color: #ffc300;
-    background-color: #000814;
+    color:#000814;
+    background-color: #ffd60a;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active /*Cuando nos ponemos encima del link y active cuando estamos dando click sobre el link*/
+{
+    color: rebeccapurple;
+    background-color: blue;
+    text-decoration: underline;
 }
 
