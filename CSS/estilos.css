@@ -1,9 +1,10 @@
 h1
 {
     color: cyan;
-    padding: 10px;
-    margin: 15px;
-    border: solid 15px;
+    padding: 15px;
+    background-color: black;
+    border: solid 10px crimson;
+    margin: 40px 15px 20px 10px; /*top right bottom left */
 }
 h2
 {
