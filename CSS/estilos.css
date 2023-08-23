@@ -1,7 +1,7 @@
 h1
 {
     color: #000814;
-    background-color:ffc300 ;
+    background-color: #ffc300;
     padding: 15px;
     margin: 40px 15px 20px 10px; /*top right bottom left */
 }
@@ -30,8 +30,11 @@ a:link, a:visited /*Como aparece el link antes de apretar en el y visited luego 
 }
 a:hover, a:active /*Cuando nos ponemos encima del link y active cuando estamos dando click sobre el link*/
 {
-    color: rebeccapurple;
+    color: red;
     background-color: blue;
     text-decoration: underline;
 }
-
+p
+{
+    font-size: 1rem;
+}
